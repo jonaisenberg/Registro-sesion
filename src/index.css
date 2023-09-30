@@ -1,0 +1,33 @@
+#root {
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+body {
+    background: rgb(231, 255, 108);
+    background: linear-gradient(
+        222deg,
+        rgba(231, 255, 108, 1) 0%,
+        rgba(131, 255, 188, 1) 100%
+    );
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2.2em;
+    line-height: 1.1;
+}
+
+.fa-brands {
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 50%;
+    border: 1px solid rgb(30, 48, 80);
+}

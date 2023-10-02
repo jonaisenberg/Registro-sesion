@@ -57,7 +57,6 @@ const Formulario = ({ mensajeAlerta }) => {
         setCorreo("");
         setContraseña("");
         setConfirmarContraseña("");
-        return;
     };
     return (
         <>

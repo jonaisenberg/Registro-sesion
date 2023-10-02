@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 trabaje en un PR en el siguiente proyecto: https://github.com/lukitas0606/Estados-de-los-componentes-y-eventos.
 Erich Armijo colaboro en este proyecto
+Nicolás Contreras colaboro en el proyecto

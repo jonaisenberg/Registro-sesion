@@ -3,7 +3,9 @@
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
-    height: 56vh
+    height: 60vh;
+    width: 30vw;
+
 }
 i{
     cursor: pointer;

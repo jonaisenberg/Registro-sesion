@@ -8,3 +8,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 trabaje en un PR en el siguiente proyecto: https://github.com/lukitas0606/Estados-de-los-componentes-y-eventos.
+Erich Armijo colaboro en este proyecto
+Nicolás Contreras colaboro en el proyecto

@@ -18,7 +18,6 @@ const Formulario = ({ mensajeAlerta }) => {
             confirmarContraseña === ""
         ) {
             mensajeAlerta({
-                error: true,
                 colorEstado: "danger mt-3",
                 mensajeEstado: "Completa todos los campos!",
             });
@@ -26,7 +25,6 @@ const Formulario = ({ mensajeAlerta }) => {
         }
         if (!formatoCorreo.test(correo)) {
             mensajeAlerta({
-                error: true,
                 colorEstado: "danger mt-3",
                 mensajeEstado: "El formato del correo no es el apropiado!",
             });
@@ -34,7 +32,6 @@ const Formulario = ({ mensajeAlerta }) => {
         }
         if (contraseña != confirmarContraseña) {
             mensajeAlerta({
-                error: true,
                 colorEstado: "danger mt-3",
                 mensajeEstado: "La contraseña no es identica!",
             });
@@ -42,14 +39,12 @@ const Formulario = ({ mensajeAlerta }) => {
         }
         if (!minimoContraseña.test(contraseña)) {
             mensajeAlerta({
-                error: true,
                 colorEstado: "danger mt-3",
                 mensajeEstado: "La contraseña debe tener un mínimo de 8 caracteres!",
             });
             return;
         }
         mensajeAlerta({
-            error: false,
             colorEstado: "success mt-3",
             mensajeEstado: "Registro exitoso!",
         });
